@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.myBox{
+    width: 100%;
+    height: 974px;
+    background-image: url("/img/bg.jpg");
+    background-size: 100% 1000px;
+    overflow: hidden;
+}
+.loginContent{
+    width: 380px;
+    height: 288px;
+    margin: 375px auto 0 auto;
+    /*border: 1px solid rebeccapurple;*/
+}
+.contentItem{
+    width: 360px;
+    height: 50px;
+    margin: 0 auto 20px auto;
+    background-color: white;
+    border-radius: 10px;
+}
+.itemImg{
+    width: 50px;
+    height: 33px;
+    float: left;
+    border-right: 1px solid black;
+    margin-top: 8px;
+}
+.itemImg>img{
+    margin-left: 8px;
+}
+.itemInput{
+    width: 308px;
+    height: 33px;
+    float: left;
+    margin-top: 8px;
+}
+.itemInput>input{
+    width: 260px;
+    height: 33px;
+    padding: 0px 20px;
+    color: gray;
+    border: none;
+    outline: none;
+}
+.checkCode{
+    width: 240px;
+    height: 33px;
+    float: left;
+    margin-top: 8px;
+}
+.checkCode>input{
+    height: 33px;
+    letter-spacing: 3px;
+    color: gray;
+    padding: 0px 66px;
+    border: none;
+    outline: none;
+}
+.keyCode{
+    width: 120px;
+    height: 50px;
+    float: left;
+    background-image: url("/img/keyCodeBg.png");
+    /*margin-eft: 2px;*/
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #27c5b7;
+}
+input{
+    font-size: 16px;
+}
+.loginBtn{
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    letter-spacing: 6px;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #f6b943;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.loginBtn>button{
+    width: 100px;
+    height: 50px;
+    letter-spacing: 6px;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #f6b943;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.checkText{
+    color: #ff6161;
+    margin-top: 11px;
+    display: none;
+    margin-left: 45px;
+}
+.rememberMe{
+    width: 360px;
+    height: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    color: white;
+    overflow: hidden;
+}
